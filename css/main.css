@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #4b96f1;
+    caret-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.alarm {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.alarm .icon {
+    display: block;
+    margin: auto;
+}
+
+.alarm .time {
+    font-weight: 500;
+    margin: 10px 0;
+    text-align: center;
+    color: #222;
+}
+
+.alarm .inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.alarm .inputs .select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.alarm .inputs .select select {
+    border: none;
+    outline: none;
+    width: 80px;
+    color: #777;
+}
+
+.alarm .inputs .select select::-webkit-slider {
+    display: none;
+}
+
+.alarm .inputs .select select::-webkit-slider-thumb {
+    width: 5px;
+}
+
+.alarm .inputs .select select::-webkit-slider-runnable-track {
+    width: 5px;
+}
+
+.alarm .alarm-btn {
+    width: 100%;
+    color: #fff;
+    background-color: #4b96f1;
+    Padding: 15px;
+    border: none;
+    margin-top: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
